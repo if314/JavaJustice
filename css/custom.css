@@ -1,0 +1,65 @@
+/*********************************************************************************
+
+	Template Name: Boighor Bookshop Responsive Bootstrap4 Template  
+	Description: Template description
+	Version: 1.0
+	Note: This is custom css. All custom styles (user styles) declare here.
+
+**********************************************************************************/
+
+.slider.slider-horizontal .slider-track {
+    height: 10px;
+    width: 50%;
+    margin-top: -5px;
+    top: 50%;
+    left: 0;
+}
+
+.bg-image--1 {
+    background-color: #ff44;
+    background-image: none; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg-image--2 {
+    background-color: #999;
+    background-image: none; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.bg-image--3 {
+    background-color: #ff44;
+   background-image: none; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.bg-image--4 {
+    background-color: #dadada;
+    background-image: none; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.coffeslide,{
+	padding: 50px;
+}
+
+.size{
+	padding: 50px;
+}
+
+.fit{
+	width: auto !important;
+	/* margin-right: auto;  */
+	margin-left: auto;
+}
+.slider-tick-label{
+	letter-spacing: 10px;
+	font-size: 10px;
+	opacity:50%;
+}
