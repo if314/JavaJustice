@@ -17,18 +17,33 @@
 }
 .slider-handle {
     position: absolute;
-    width: 10px;
-    height: 10px;
-    background-color: #000;
-    background-image: -webkit-linear-gradient(top, #000 0%, #666 100%);
-    background-image: -o-linear-gradient(top, #000 0%, #666 100%);
-    background-image: linear-gradient(to bottom, #000 0%, #666 100%);
+    width: 15px;
+    height: 15px;
+    background-color: #999;
+    background-image: -webkit-linear-gradient(top, #999 0%, #666 100%);
+    background-image: -o-linear-gradient(top, #999 0%, #666 100%);
+    background-image: linear-gradient(to bottom, #999 0%, #666 100%);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000', endColorstr='#999', GradientType=0);
     filter: none;
     -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
     box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
     border: 0px solid transparent;
+    top:-3px;
+
+}
+
+.slider-selection.tick-slider-selection {
+    background-image: -webkit-linear-gradient(top, #a4a4a4 0%, #999 100%);
+    background-image: -o-linear-gradient(top, #a4a4a4 0%, #999 100%);
+    background-image: linear-gradient(to bottom, #a4a4a4 0%, #999 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a4a4a4', endColorstr='#999', GradientType=0);
+}
+.slider-tick.in-selection {
+    background-image: -webkit-linear-gradient(top, #a4a4a4 0%, #999 100%);
+    background-image: -o-linear-gradient(top, #a4a4a4 0%, #999 100%);
+    background-image: linear-gradient(to bottom, #a4a4a4 0%, #999 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a4a4a4', endColorstr='#999', GradientType=0);
 }
 
 
@@ -126,18 +141,21 @@
 }
 
 .slider-track-low, .slider-track-high {
-    position: absolute;
-    background: #000;
+        position: absolute;
+    background: transparent;
 }
 .slider.slider-horizontal .slider-track-high {
     height: 50%;
-    top: -2px;
+    top: 5px;
     bottom: 0;
 }
 
 
 
-
+.slider.slider-horizontal .slider-tick, .slider.slider-horizontal .slider-handle {
+    margin-left: -10px;
+    margin-top: -4px;
+}
 
 
 
