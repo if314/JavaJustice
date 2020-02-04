@@ -49,8 +49,8 @@
     background-position: center center;
 }
 
-.coffeslide,{
-	margin: : 50px;
+.coffeslide{
+	margin: 50px;
 }
 
 .size{
@@ -79,6 +79,6 @@
 }
 
 .header__area .header__sidebar__right > li.shop_search > a {
-  
+  z
     padding-right: 4rem;
 }
