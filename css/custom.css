@@ -77,3 +77,8 @@
 .header__area .logo{
     width: 100%;
 }
+
+.header__area .header__sidebar__right > li.shop_search > a {
+  
+    padding-right: 4rem;
+}
