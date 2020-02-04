@@ -183,3 +183,33 @@ color:#999;
 .beans{
         margin-top: 4rem;
 }
+
+
+input[type=checkbox], input[type=radio] {
+      margin: 0px 1rem 0px 5rem;
+    line-height: normal;
+      -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  transform: scale(1.5);
+  border-top: 2px solid #666;
+
+}
+
+
+/* Might want to wrap a span around your checkbox text */
+.checkboxtext
+{
+  /* Checkbox text */
+
+      font-size: 1.8rem;
+}
+
+a:visited {
+    color: #f9f9f9;
+}
+.btn:hover{
+background-color: #999;
+border: 0px;
+}
