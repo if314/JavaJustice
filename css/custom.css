@@ -38,12 +38,15 @@
     background-image: -o-linear-gradient(top, #D8A663 0%, #a36127 100%);
     background-image: linear-gradient(to bottom, #D8A663 0%, #a36127 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D8A663', endColorstr='#a36127', GradientType=0);
+        height: 5px;
+
 }
 .slider-tick.in-selection {
     background-image: -webkit-linear-gradient(top, #D8A663 0%, #a36127 100%);
     background-image: -o-linear-gradient(top, #D8A663 0%, #a36127 100%);
     background-image: linear-gradient(to bottom, #D8A663 0%, #a36127 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D8A663', endColorstr='#a36127', GradientType=0);
+
 }
 
 
@@ -83,12 +86,11 @@
 
 .coffeslide {
     margin-top: 2rem;
-    margin-left: 6rem;
-    margin-right: auto; 
+
 }
 
 .size{
-	padding: 50px;
+	    padding: 4rem 4rem 2rem 4rem;
 }
 
 .fit{
@@ -167,8 +169,8 @@ color: #fff;
     border-radius: 30px;
     padding: 10px 50px;
     margin-bottom: 50px;
-    margin-left: 10rem;
-    margin-right: 4rem;
+ /*   margin-left: 10rem;
+    margin-right: 4rem;*/
 }
 .sticky__header.is-sticky {
 color:#999;
@@ -193,7 +195,7 @@ input[type=checkbox], input[type=radio] {
   -webkit-transform: scale(1.5); /* Safari and Chrome */
   -o-transform: scale(1.5); /* Opera */
   transform: scale(1.5);
-  border-top: 2px solid #666;
+  border: 2px solid #666;
 
 }
 
@@ -212,4 +214,10 @@ a:visited {
 .btn:hover{
 background-color: #999;
 border: 0px;
+}
+
+.money{
+        text-align: center;
+    font-size: 5rem;
+    margin-top: 4rem;
 }
