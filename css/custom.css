@@ -16,7 +16,8 @@
 }
 
 .bg-image--1 {
-    background-color: #ff44;
+    background-color: #DDEFE3;
+    color: #3E7E5A;
     background-image: none; 
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,21 +25,24 @@
 }
 
 .bg-image--2 {
-    background-color: #999;
+    background-color: #E4C7C3;
+    color: #8F5E6E;
     background-image: none; 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 .bg-image--3 {
-    background-color: #ff44;
+    background-color:#F8F2CC;
+    color: #D8A663;
    background-image: none; 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 .bg-image--4 {
-    background-color: #dadada;
+    background-color: #F4F4F4;
+    color: #666;
     background-image: none; 
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,4 +66,14 @@
 	letter-spacing: 10px;
 	font-size: 10px;
 	opacity:50%;
+}
+
+.bg__cat--8 .footer-static-top{
+    background-color: #3C3C40;
+    color: #fff !important;
+}
+
+
+.header__area .logo{
+    width: 100%;
 }
