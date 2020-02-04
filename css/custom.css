@@ -49,8 +49,10 @@
     background-position: center center;
 }
 
-.coffeslide{
-	margin: 50px;
+.coffeslide {
+    margin-top: 4rem;
+    margin-left: 6rem;
+    margin-right: auto;
 }
 
 .size{
