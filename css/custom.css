@@ -9,7 +9,7 @@
 
 .slider.slider-horizontal .slider-track {
     height: 10px;
-    width: 50%;
+    width: 100%;
     margin-top: -5px;
     top: 50%;
     left: 0;
@@ -85,6 +85,8 @@
  
 }
 
+/*
+
 .slider-tick {    
     width: 10px;
     height: 10px;
@@ -100,3 +102,4 @@
     background: #000;
 }
 
+*/
