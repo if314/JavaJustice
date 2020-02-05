@@ -252,7 +252,10 @@ border: 0px;
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: red;
+   background-color: #3C3C40;
    color: white;
    text-align: center;
+}
+body{
+    height: 100%;
 }
