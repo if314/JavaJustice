@@ -99,9 +99,8 @@
 	margin-left: auto;
 }
 .slider-tick-label{
-	letter-spacing: 10px;
+	letter-spacing: 5px;
 	font-size: 10px;
-	opacity:50%;
 }
 
 .bg__cat--8 .footer-static-top{
@@ -168,8 +167,8 @@ color: #fff;
     border-color: #040404;
     border-radius: 30px;
     padding: 10px 50px;
-    margin-bottom: 50px;
- /*   margin-left: 10rem;
+ /*     margin-bottom: 50px;
+  margin-left: 10rem;
     margin-right: 4rem;*/
 }
 .sticky__header.is-sticky {
@@ -219,5 +218,15 @@ border: 0px;
 .money{
         text-align: center;
     font-size: 5rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
+}  
+.qu{
+    border-radius: 50px;
+    border: 1px solid #999;
+    padding: 1rem;
+    width: 20%;
+} 
+
+.mb50{
+    margin-bottom: 50px;
 }
