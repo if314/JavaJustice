@@ -163,6 +163,7 @@
 
 .btn-primary {
 color: #fff;
+border: 1px solid #000;
     background-color: #000;
     border-color: #040404;
     border-radius: 30px;
