@@ -267,3 +267,10 @@ margin-top: 15rem;
 .infotext {
     font-size: 2rem;
 }
+.map img:hover{
+    width: 120%;
+}
+.mission{
+    margin-top: 2rem;
+    text-align: right;
+}
