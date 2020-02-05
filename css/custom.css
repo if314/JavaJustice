@@ -53,7 +53,8 @@
 .bg-image--1 {
     background-color: #DDEFE3;
     color: #3E7E5A;
-    background-image: none; 
+    background-image: linear-gradient(to bottom, #DDEFE3 0%, #A1D3B5 100%), url(../images/Coffee_Product_2.jpg);
+    background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -70,7 +71,8 @@
 .bg-image--3 {
     background-color:#F8F2CC;
     color: #D8A663;
-   background-image: none; 
+   background-image: linear-gradient(to bottom, #D8A663 0%, #F8F2CC 100%), url(../images/About-Cover.jpg);
+     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -179,7 +181,9 @@ color:#999;
 }
 
 .ft__logo {
-    max-width: 215px;
+
+  max-width: 215px; 
+    width: 30%;
 }
 
 .beans{
@@ -230,4 +234,25 @@ border: 0px;
 
 .mb50{
     margin-bottom: 50px;
+}
+
+
+/*************DISCOVER***************/
+
+.bg-image--full {
+    color: #3E7E5A;
+    background-image: url(../images/DiscoverMap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
 }
