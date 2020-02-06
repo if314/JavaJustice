@@ -217,7 +217,8 @@ a:visited {
 }
 .btn:hover{
 background-color: #999;
-border: 0px;
+    border: 1px solid #999;
+}
 }
 
 .money{
