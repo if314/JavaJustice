@@ -175,10 +175,12 @@ border: 1px solid #000;
     margin-right: 4rem;*/
 }
 .sticky__header.is-sticky {
-color:#999;
-    background: #A1D3B5;
-
+color:#999 !important;
+      background: rgba(185, 234, 205, 0.3);
+          animation: 0.8s ease-in-out 0s normal both 1 running fadeInDown;
+    box-shadow: 0 0 0px #bdbdbd;
 }
+
 
 .ft__logo {
 
@@ -218,7 +220,6 @@ a:visited {
 .btn:hover{
 background-color: #999;
     border: 1px solid #999;
-}
 }
 
 .money{
