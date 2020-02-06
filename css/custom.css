@@ -274,3 +274,49 @@ margin-top: 15rem;
     margin-top: 2rem;
     text-align: right;
 }
+.more{
+    color:#666 !important;
+    font-style: italic;
+    text-decoration:underline;
+}
+.imgsm{
+    width: 30%;
+}
+
+/******************************************/
+
+.brazil a {
+    padding-left: 0px;
+    padding-right: 26px;
+    position: absolute;
+    /* background: rgba(0, 0, 0, 0) url(images/icons/cart.png) no-repeat scroll 0 center; */
+    height: 100%;
+    /* line-height: 35px; */
+    /* width: 24px; */
+    margin: 36rem 94rem;
+    }
+.bblock-minicart.is-visible {
+    opacity: 1;
+    visibility: visible;
+}
+.bblock-minicart{
+    background: #fff none repeat scroll 0 0;
+    left: auto;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 100%;
+    transition: -webkit-transform 0.8s ease 0s, transform 0.8s ease 0s, opacity 0.5s ease 0s, visibility 0.5s ease 0s;
+    visibility: hidden;
+    z-index: 10;
+    padding-top: 20px;
+margin: 7rem 30rem;
+    width: 30%;
+}
+
+
+
+
+
+
+

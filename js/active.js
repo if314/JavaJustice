@@ -306,6 +306,7 @@
     }
     cartboxToggler();
 
+ 
 
 /*============= Search Toggler ==============*/
     function searchToggler() {
@@ -341,6 +342,28 @@
         });
     }
     cartToggler();
+
+
+
+function cardToggler() {
+        var trigger = $('.brazilbox_active'),
+          container = $('.bminicart__active');
+        trigger.on('click', function (e) {
+          e.preventDefault();
+          container.toggleClass('is-visible');
+
+        });
+        trigger.on('click', function (e) {
+          e.preventDefault();
+          container.toggleClass('');
+
+        });
+        $('.micart__close').on('click', function () {
+          container.removeClass('is-visible');
+        });
+    }
+    cardToggler();
+
 
 /*============= Setting Toggler ==============*/
     function settingToggler() {
