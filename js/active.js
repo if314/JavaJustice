@@ -345,7 +345,7 @@
 
 
 
-function cardToggler() {
+function cardbToggler() {
         var trigger = $('.brazilbox_active'),
           container = $('.bminicart__active');
         trigger.on('click', function (e) {
@@ -362,8 +362,49 @@ function cardToggler() {
           container.removeClass('is-visible');
         });
     }
-    cardToggler();
+    cardbToggler();
 
+
+
+function cardcToggler() {
+        var trigger = $('.colombox_active'),
+          container = $('.cminicart__active');
+        trigger.on('click', function (e) {
+          e.preventDefault();
+          container.toggleClass('is-visible');
+
+        });
+        trigger.on('click', function (e) {
+          e.preventDefault();
+          container.toggleClass('');
+
+        });
+        $('.micart__close').on('click', function () {
+          container.removeClass('is-visible');
+        });
+    }
+    cardcToggler();
+
+
+
+    function cardchToggler() {
+        var trigger = $('.chilibox_active'),
+          container = $('.chminicart__active');
+        trigger.on('click', function (e) {
+          e.preventDefault();
+          container.toggleClass('is-visible');
+
+        });
+        trigger.on('click', function (e) {
+          e.preventDefault();
+          container.toggleClass('');
+
+        });
+        $('.micart__close').on('click', function () {
+          container.removeClass('is-visible');
+        });
+    }
+    cardchToggler();
 
 /*============= Setting Toggler ==============*/
     function settingToggler() {

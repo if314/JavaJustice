@@ -298,7 +298,20 @@ margin-top: 15rem;
     opacity: 1;
     visibility: visible;
 }
-.bblock-minicart{
+
+.cblock-minicart.is-visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.chblock-minicart.is-visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+.bblock-minicart, .cblock-minicart, .chblock-minicart{
     background: #fff none repeat scroll 0 0;
     left: auto;
     opacity: 0;
