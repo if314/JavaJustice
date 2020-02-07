@@ -39,6 +39,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/7.0.0/bootstrap-slider.min.js"></script>
 	<!-- Cusom css -->
 	<link rel="stylesheet" href="css/custom.css">	
+	<script type="text/javascript">
+		function change() // no ';' here
+{
+    if (this.value=="Close Curtain") this.value = "Open Curtain";
+    else this.value = "Close Curtain";
+}
+	</script>>
 </head>
 <body>
 	<!--[if lte IE 9]>
@@ -327,7 +334,7 @@
 		  </div>
 		  <div class="mb50">
 		  <input class="qu" type="number" name="name">
-		  <a class="btn btn-primary" href="#">Buy Now</a>
+		  <input onclick="change()" type="button" value="Open Curtain" id="myButton1"></input><a class="btn btn-primary" href="#">Buy Now</a>
 		  </div>
       </div>
   </div>
@@ -596,6 +603,13 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/active.js"></script>
+		<script type="text/javascript">
+		function change() // no ';' here
+{
+    if (this.value=="Close Curtain") this.value = "Open Curtain";
+    else this.value = "Close Curtain";
+}
+	</script>>
 	
 </body>
 </html>
