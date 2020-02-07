@@ -10,6 +10,13 @@
     font-family: 'Roboto Slab', serif;
 }
 
+.h3, h3 {
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
 p{
     font-size: 1.6rem;
 }
@@ -60,7 +67,7 @@ p{
 .bg-image--1 {
     background-color: #DDEFE3;
     color: #3E7E5A;
-    background-image: linear-gradient(to bottom, #DDEFE3 0%, #A1D3B5 100%), url(../images/Coffee_Product_2.jpg);
+    background-image: linear-gradient(to bottom, #DDEFE3 0%, #A1D3B5 100%), url(../images/Coffee_Product_2-p-1080.jpeg);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,6 +95,15 @@ p{
     background-color: #F4F4F4;
     color: #666;
     background-image: none; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg-image--full {
+    background-color:#83B4ED;
+    background-image:linear-gradient(to bottom, #83B4ED 0%, #465D90 100%), url(../images/DiscoverMap.jpg);
+        background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -285,13 +301,7 @@ background-color: #999;
     margin-left: 20rem;
 }
 
-.bg-image--full {
-    color: #3E7E5A;
-    background-image: url(../images/DiscoverMap.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
+
 
 .footer {
    position: fixed;
@@ -324,6 +334,7 @@ margin-top: 15rem;
     color:#666 !important;
     font-style: italic;
     text-decoration:underline;
+        text-shadow: 0px 0px 0px;
 }
 .imgsm{
     width: 30%;
@@ -372,9 +383,16 @@ margin: 7rem 30rem;
     width: 30%;
 }
 
+ .btn:focus {     
+    background-color:yellow;    
+    }
 
+.darkcolortext{
+    color:#465D90;
+}
 
-
-
+a{
+     text-shadow: 2px 2px 5px #666;
+}
 
 
