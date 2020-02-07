@@ -1,3 +1,7 @@
+*{
+    font-family: 'Roboto Slab', serif;
+}
+
 .slider.slider-horizontal .slider-track {
     height: 10px;
     width: 50%;
@@ -7,13 +11,16 @@
 }
 
 .btn2{
-	    background-color: #000;
-    padding: 5px, 20px;
-    padding: 0.5rem 4rem;
-    border-radius: 50px;
-    margin: auto;
-    text-transform: capitalize;
-}
+        background-color: #4A374B;
+        color: #fff;
+        padding: 5px, 20px;
+        padding: 0.5rem 4rem;
+        border-radius: 50px;
+        margin: auto;
+        text-transform: capitalize;
+        -webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.35); 
+        box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.35);
+    }
 
 .col{
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(244, 164, 80, 0.74)), to(rgba(244, 164, 80, 0.74))), url(../images/Coffee_Product_2.jpg);
@@ -21,9 +28,10 @@
 }
 
 .heading {
-    font-family: Verdana, Geneva, sans-serif;
     color: #fff;
+    font-family: 'Roboto Slab', serif;
  text-transform:capitalize; 
+ font-weight: 900;
 }
 .log{
 width: 20%;
@@ -36,3 +44,11 @@ width: 20%;
     margin-right: auto;
 }
 
+.paragraph {
+    margin: 1rem 8rem;
+    padding:1rem;
+}
+
+p{
+    font-size: 1.6rem;
+}
