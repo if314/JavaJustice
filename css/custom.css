@@ -259,8 +259,14 @@ background-color: #999;
     /* margin-right: -30rem; */
     margin-left: 45rem;
 }
-.brazilbox_active, .colombox_active, .chilibox_active {
-    color: #fff
+.brazilbox_active{
+    color: #A0D2B4;
+}
+.colombox_active{
+    color: #E4C7C3;
+}
+.chilibox_active{
+    color: #C87854;
 }
 
 .cccc {
