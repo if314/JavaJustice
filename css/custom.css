@@ -66,27 +66,27 @@ p{
 
 .bg-image--1 {
     background-color: #DDEFE3;
-    color: #3E7E5A;
-    background-image: linear-gradient(to bottom, #DDEFE3 0%, #A1D3B5 100%), url(../images/Coffee_Product_2-p-1080.jpeg);
-    background-blend-mode: overlay;
+    color: #fff;
+    background-image: linear-gradient(to bottom, #2FAA04 0%, #2FAA04 100%), url(../images/Coffee_Product_2-p-1080.jpeg);
+    /*  background-blend-mode: overlay; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
 .bg-image--2 {
-    background-color: #E4C7C3;
-    color: #8F5E6E;
+    background-color: #A537AA;
+    color: #fff;
     background-image: none; 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 .bg-image--3 {
-    background-color:#F8F2CC;
-    color: #D8A663;
-   background-image: linear-gradient(to bottom, #D8A663 0%, #F8F2CC 100%), url(../images/About-Cover.jpg);
-     background-blend-mode: overlay;
+   
+    color: #fff;
+   background-image: linear-gradient(to bottom, #F7931E 0%, #F7931E 100%), url(../images/About-Cover.jpg);
+   /*  background-blend-mode: overlay; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -384,15 +384,20 @@ margin: 7rem 30rem;
 }
 
  .btn:focus {     
-    background-color:yellow;    
+    background-color:#3E7E5A;    
     }
 
 .darkcolortext{
-    color:#465D90;
+    color:#508DF8;
 }
 
 a{
      text-shadow: 2px 2px 5px #666;
 }
 
-
+.header__area .header__sidebar__right > li.shopcart > a {
+    background-image: url(images/ShoppingCartIcon.svg);
+    height: 100%;
+    line-height: 35px;
+    width: 24px;
+}

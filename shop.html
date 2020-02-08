@@ -35,17 +35,18 @@
   
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
-  <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/7.0.0/bootstrap-slider.min.js"></script>
+  
 	<!-- Cusom css -->
 	<link rel="stylesheet" href="css/custom.css">	
-	<script type="text/javascript">
+	<script>
 		function change() // no ';' here
-{
-    if (this.value=="Close Curtain") this.value = "Open Curtain";
-    else this.value = "Close Curtain";
-}
-	</script>>
+	{
+		var elem = document.getElementById("myButton1");
+		if (elem.value=="Close Curtain") elem.value = "Open Curtain";
+		else elem.value = "Close Curtain";
+	}
+		</script>
 </head>
 <body>
 	<!--[if lte IE 9]>
@@ -149,72 +150,7 @@
 								<!-- End Shopping Cart -->
 							</li>
 							<li class="setting__bar__icon"><a class="setting__active" href="#"></a>
-								<div class="searchbar__content setting__block">
-									<div class="content-inner">
-										<div class="switcher-currency">
-											<strong class="label switcher-label">
-												<span>Currency</span>
-											</strong>
-											<div class="switcher-options">
-												<div class="switcher-currency-trigger">
-													<span class="currency-trigger">USD - US Dollar</span>
-													<ul class="switcher-dropdown">
-														<li>GBP - British Pound Sterling</li>
-														<li>EUR - Euro</li>
-													</ul>
-												</div>
-											</div>
-										</div>
-										<div class="switcher-currency">
-											<strong class="label switcher-label">
-												<span>Language</span>
-											</strong>
-											<div class="switcher-options">
-												<div class="switcher-currency-trigger">
-													<span class="currency-trigger">English01</span>
-													<ul class="switcher-dropdown">
-														<li>English02</li>
-														<li>English03</li>
-														<li>English04</li>
-														<li>English05</li>
-													</ul>
-												</div>
-											</div>
-										</div>
-										<div class="switcher-currency">
-											<strong class="label switcher-label">
-												<span>Select Store</span>
-											</strong>
-											<div class="switcher-options">
-												<div class="switcher-currency-trigger">
-													<span class="currency-trigger">Fashion Store</span>
-													<ul class="switcher-dropdown">
-														<li>Furniture</li>
-														<li>Shoes</li>
-														<li>Speaker Store</li>
-														<li>Furniture</li>
-													</ul>
-												</div>
-											</div>
-										</div>
-										<div class="switcher-currency">
-											<strong class="label switcher-label">
-												<span>My Account</span>
-											</strong>
-											<div class="switcher-options">
-												<div class="switcher-currency-trigger">
-													<div class="setting__menu">
-														<span><a href="#">Compare Product</a></span>
-														<span><a href="#">My Account</a></span>
-														
-														<span><a href="#">Sign In</a></span>
-														<span><a href="#">Create An Account</a></span>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
+								
 							</li>
 						</ul>
 					</div>
@@ -333,8 +269,10 @@
 <div class="money">$15</div>
 		  </div>
 		  <div class="mb50">
-		  <input class="qu" type="number" name="name">
-		  <input onclick="change()" type="button" value="Open Curtain" id="myButton1"></input><a class="btn btn-primary" href="#">Buy Now</a>
+			<input class="btn btn-primary" onclick="change()" type="button" value="Buy Now" id="myButton1"></input>
+		 
+			
+
 		  </div>
       </div>
   </div>
@@ -603,13 +541,9 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/active.js"></script>
-		<script type="text/javascript">
-		function change() // no ';' here
-{
-    if (this.value=="Close Curtain") this.value = "Open Curtain";
-    else this.value = "Close Curtain";
-}
-	</script>>
+	<script src="js/change.js"></script>
 	
+
+
 </body>
 </html>
