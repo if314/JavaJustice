@@ -12,7 +12,7 @@
 .mean-container{
 	position: unset;
 	width: 100%;
-	background: #transparent;
+	background: transparent;
 }
 
 /* hide the link until viewport size is reached */

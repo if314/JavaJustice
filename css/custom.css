@@ -110,8 +110,7 @@ p{
 }
 
 .coffeslide {
-    margin-top: 2rem;
-
+    margin-top: 33rem;
 }
 
 .size{
@@ -213,10 +212,10 @@ color:#999 !important;
     width: 30%;
 }
 
-.beans{
-        margin-top: 4rem;
+.beans {
+    margin-top: 4rem;
+    margin-left: -2rem;
 }
-
 input[type=checkbox], input[type=radio] {
       margin: 0px 1rem 0px 5rem;
     line-height: normal;
