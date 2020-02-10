@@ -543,7 +543,7 @@ function cardcToggler() {
     $('#slider-range').slider({
         range: true,
         min: 10,
-        max: 500,
+        max: 100,
         values: [110, 400],
         slide: function(event, ui) {
             $('#amount').val('$' + ui.values[0] + ' - $' + ui.values[1]);
