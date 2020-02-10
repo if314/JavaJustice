@@ -23,7 +23,7 @@ p{
 
 .slider.slider-horizontal .slider-track {
       height: 3px;
-    width: 100%;
+      width: 65%;
     margin-top: -5px;
     top: 50%;
     left: 0;
@@ -110,7 +110,7 @@ p{
 }
 
 .coffeslide {
-    margin-top: 33rem;
+   /* margin-top: 33rem;*/
 }
 
 .size{
@@ -215,6 +215,7 @@ color:#999 !important;
 .beans {
     margin-top: 4rem;
     margin-left: -2rem;
+    width: 50%;
 }
 input[type=checkbox], input[type=radio] {
       margin: 0px 1rem 0px 5rem;
@@ -303,13 +304,13 @@ background-color: #999;
 
 
 .footer {
-   position: fixed;
+  /* position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
    background-color: #3C3C40;
    color: white;
-   text-align: center;
+   text-align: center;*/
 }
 
 .infotext{
