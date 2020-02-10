@@ -3320,17 +3320,33 @@ figcaption {
 
 .about-image._2 {
   height: 100%;
-  background-image: url('../images/2.svg');
+  background-image: url('../images/3.svg');
   background-size: cover;
 }
 
 .about-image._2.colombia {
-  background-image: url('../images/3.svg');
+  background-image: url('../images/2.svg');
 }
 
 .about-image._2.brazil {
   background-image: url('../images/1.svg');
 }
+
+/*
+.about-image._2 {
+  height: 100%;
+  background-image: url('../images/chili.png');
+  background-size: cover;
+}
+
+.about-image._2.colombia {
+  background-image: url('../images/colombia.png');
+}
+
+.about-image._2.brazil {
+  background-image: url('../images/brazil2.png');
+}
+*/
 
 .about-image-section-wrap {
   margin-top: 0px;
