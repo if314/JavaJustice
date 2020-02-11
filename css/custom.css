@@ -126,6 +126,7 @@ p{
 .slider-tick-label{
 	letter-spacing: 5px;
 	font-size: 10px;
+        margin-left: 20px !important;
 }
 
 .bg__cat--8 .footer-static-top{
