@@ -1,7 +1,8 @@
-	    function change() // no ';' here
-{
-    var elem = document.getElementById("myButton1");
-    if (elem.value=="Buy Now") elem.value = "CHECK OUT!";
-    else elem.value = "Buy Now";
-}
-   
+jQuery (".fold")    .click (function () {
+    if (jQuery (this).children (".fold_p").text() == "Add to Cart") {
+            jQuery (this).children (".fold_p").text("CHECK OUT");
+    }
+    else {
+         jQuery (this).children (".fold_p").text("Add to Cart");        
+    }
+});
