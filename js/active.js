@@ -86,59 +86,7 @@
     }
     stickyHeader();
 
-/*===========  Testimonial Slick Carousel =============*/
-    $('.testext_active').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: true,
-        draggable: false,
-        prevArrow: '<button type="button" class="wen-slick-prev"><i class="zmdi zmdi-chevron-left"></i></button>',
-        nextArrow: '<button type="button" class="wen-slick-next"><i class="zmdi zmdi-chevron-right"></i></button>',
-        fade: true,
-        dots: false,
-        asNavFor: '.thumb_active'
-    });
 
-
-/*============= Testimonial Slick Carousel As Nav =============*/
-    $('.thumb_active').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        asNavFor: '.testext_active',
-        dots: false,
-        arrows: false,
-        centerMode: true,
-        focusOnSelect: true,
-        centerPadding: '10px',
-        responsive: [
-            {
-              breakpoint: 576,
-              settings: {
-                dots: false,
-                slidesToShow: 1,  
-                centerPadding: '0px',
-                }
-            },
-            {
-              breakpoint: 769,
-              settings: {
-                autoplay: true,
-                dots: false,
-                slidesToShow: 2,
-                centerMode: false,
-                }
-            },
-            {
-              breakpoint: 420,
-              settings: {
-                autoplay: true,
-                dots: false,
-                slidesToShow: 1,
-                centerMode: false,
-                }
-            }
-        ]
-    });
 
 
 /*=============  Brand Activation  ==============*/
@@ -542,8 +490,8 @@ function cardcToggler() {
 /*====== Price Slider Active ======*/ 
     $('#slider-range').slider({
         range: true,
-        min: 10,
-        max: 100,
+        min: 0,
+        max: 50,
         values: [110, 400],
         slide: function(event, ui) {
             $('#amount').val('$' + ui.values[0] + ' - $' + ui.values[1]);
@@ -558,56 +506,7 @@ function cardcToggler() {
 
 	
 /*====== slick slider ======*/
-	$('.center').slick({
-	  centerMode: true,
-	  centerPadding: '0px',
-	  slidesToShow: 7,
-	  responsive: [
-		 {
-		  breakpoint: 1366,
-		  settings: {
-			slidesToShow: 3,
-			slidesToScroll: 3,
-			infinite: true,
-			dots: false
-		  }
-		},
-		{
-		  breakpoint: 1100,
-		  settings: {
-			slidesToShow: 3,
-			slidesToScroll: 3,
-			infinite: true,
-			dots: false
-		  }
-		},
-		{
-			breakpoint: 970,
-			settings: {
-				slidesToShow: 3,
-				slidesToScroll: 3,
-				infinite: true,
-				dots: false
-			  }
-		},
-		{
-		  breakpoint: 768,
-		  settings: {
-			arrows: false,
-			centerMode: true,
-			slidesToShow: 3
-		  }
-		},
-		{
-		  breakpoint: 480,
-		  settings: {
-			arrows: false,
-			centerMode: true,
-			slidesToShow: 1
-		  }
-		}
-	  ]
-	});
+
 
 
 })(jQuery);
