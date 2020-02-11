@@ -110,9 +110,8 @@ p{
 }
 
 .coffeslide {
-   /* margin-top: 33rem;*/
-   margin-left: 8rem;
-}
+    margin-top: -6rem;
+    margin-left: 20rem;
 }
 
 .size{
@@ -241,7 +240,7 @@ input[type=checkbox], input[type=radio] {
 }
 
 a:visited {
-    color: #f9f9f9;
+    color: rgba(162, 95, 75, 1);
 }
 .btn:hover{
 background-color: #999;
@@ -393,9 +392,7 @@ margin: 7rem 30rem;
     color:#508DF8;
 }
 
-a{
-     text-shadow: 2px 2px 5px #666;
-}
+
 
 .header__area .header__sidebar__right > li.shopcart > a {
     background-image: url(images/ShoppingCartIcon.svg);
